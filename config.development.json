@@ -1,3 +1,16 @@
 {
-    "enableDeveloperExperiments": true
+    "enableDeveloperExperiments": true,
+    "mail": {
+        "transport": "SMTP",
+        "options": {
+            "host": "email-smtp.us-east-1.amazonaws.com",
+            "port": 465,
+            "service": "SES",
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        },
+        "from": "noreply@alienwarearena.com"
+    }
 }

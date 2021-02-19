@@ -693,7 +693,7 @@ Post = ghostBookshelf.Model.extend({
      *            This is protected by the fn `permittedOptions`.
      */
     defaultColumnsToFetch: function defaultColumnsToFetch() {
-        return ['id', 'published_at', 'slug', 'author_id'];
+        return ['id', 'published_at', 'slug', 'external_url', 'author_id'];
     },
     /**
      * If the `formats` option is not used, we return `html` be default.

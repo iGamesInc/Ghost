@@ -75,6 +75,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@igames/ghost-admin-api-schema@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@igames/ghost-admin-api-schema/-/ghost-admin-api-schema-1.4.3.tgz#8ebe451b1b72cf98e80100802c28b75e3a3f84e4"
+  integrity sha512-2mFK/yGFCtDuK5iQOQnMEI+1HzOWvd4dfoJKuScmcUTTT6wh8YuEcC1yPWU39jxdrxsp2C8ZUtCnTq02Imwmsw==
+  dependencies:
+    "@tryghost/errors" "0.2.6"
+    bluebird "^3.5.3"
+    ghost-ignition "4.2.4"
+    lodash "^4.17.11"
+
 "@lodder/grunt-postcss@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@lodder/grunt-postcss/-/grunt-postcss-3.0.0.tgz#815d72e9d731e8ed70cc89b948452f4f1740d1a1"

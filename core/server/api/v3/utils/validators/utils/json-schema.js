@@ -1,4 +1,4 @@
-const jsonSchema = require('@tryghost/admin-api-schema');
+const jsonSchema = require('@igames/ghost-admin-api-schema');
 
 /**
  *
